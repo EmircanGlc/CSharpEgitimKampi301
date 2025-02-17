@@ -16,5 +16,17 @@ namespace CSharpEgitimKampi301.EFProject
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnList_Click(object sender, EventArgs e)
+        {
+            EgitimKampiEfTravelDbEntities db = new EgitimKampiEfTravelDbEntities();
+            var values = db.Guide.ToList();
+            dataGridView1.DataSource = values;
+        }
     }
 }

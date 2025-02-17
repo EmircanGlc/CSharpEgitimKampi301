@@ -95,6 +95,10 @@
       <Project>{db3e621a-0d94-4d4d-9b2c-014707581ca8}</Project>
       <Name>CSharpEgitimKampi301.BusinessLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CSharpEgitimKampi301.EFProject\CSharpEgitimKampi301.EFProject.csproj">
+      <Project>{15A1716D-C1BD-4DAC-9A1C-2E3F435ECE63}</Project>
+      <Name>CSharpEgitimKampi301.EFProject</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
