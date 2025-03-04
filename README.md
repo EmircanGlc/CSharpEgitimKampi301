@@ -1,5 +1,5 @@
-:maple_leaf: C# Eğitim Kampı 
--Bu kamp çerçevesinde  linq sorguları yazılarak Sql veritabanından veriler Windows forma çekildi.
+:maple_leaf: C# Eğitim Kampı <br>
+Bu kamp çerçevesinde  linq sorguları yazılarak Sql veritabanından veriler Windows forma çekildi.
 
 :snowman:Kullanılan Teknolojiler <br>
 
