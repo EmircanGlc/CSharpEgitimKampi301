@@ -3,7 +3,7 @@
 
 :snowman:Kullanılan Teknolojiler <br>
 
-<br>-Entity Framework
+-Entity Framework<br>
 -Linq
 -Windows Form
 -Sql Server
