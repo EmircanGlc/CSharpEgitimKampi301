@@ -5,10 +5,9 @@
 :trophy: -Methotlar konusunu<br>
 :art: -Sql veritabanı ile bağlantı oluşturma ve <br>
 :book: -Crud(Create,Read,Update,Delete)  işlemlerini tamamladım.<br>
-:maple_leaf: C# Eğitim Kampı <br>
-Bu kamp çerçevesinde  linq sorguları yazılarak Sql veritabanından veriler Windows forma çekildi.
-
-:snowman:Kullanılan Teknolojiler <br>
+:maple_leaf: Kamp çerçevesinde aşağıda resmini gördüğünüz kısımlarda linq sorguları yazılarak Sql veritabanından veriler Windows forma çekilmiştir.
+ 
+ :snowman:Kullanılan Teknolojiler <br>
 
 :ghost: Entity Framework<br>
 :tada: Linq<br>
