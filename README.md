@@ -2,6 +2,7 @@
 -Bu kamp çerçevesinde  linq sorguları yazılarak Sql veritabanından veriler Windows forma çekildi.
 
 :snowman:Kullanılan Teknolojiler
+
 -Entity Framework
 -Linq
 -Windows Form
