@@ -39,7 +39,7 @@ namespace CSharpEgitimKampi301.EFProject
             lblAvgCapacity.Text = ((int)db.Location.Average(x => x.Capacity)).ToString();
             #endregion
             #region Ortalama Tur Fiyatı
-             lblAvgLocationPrice.Text = ((int)db.Location.Sum(x=>x.Price)).ToString() + "₺";
+             lblAvgLocationPrice.Text = ((int)db.Location.Average(x=>x.Price)).ToString() + " ₺";
             //lblAvgLocationPrice.Text = String.Format("{0:0.00}", db.Location.Average(x => x.Price),2);
 
             #endregion
@@ -82,7 +82,9 @@ namespace CSharpEgitimKampi301.EFProject
             #region Ayşegül Çınarın tur sayısı
 
             var Aysegülİd = db.Guide.Where(x=>x.GuideName =="Ayşegül" && x.GuideSurname == "Çınar").Select(y=>y.GuideId).FirstOrDefault();
-            lblAysegülCinarLocationCount.Text = db.Location.Where(x => x.GuideId == Aysegülİd).Count().ToString();
+            lblAysegülCinarLocationCount.Text = db.Location.Where(x =>x.GuideId == Aysegülİd ).Count().ToString();
+
+
 
             #endregion
         }

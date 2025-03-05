@@ -80,7 +80,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(188)))), ((int)(((byte)(156)))));
             this.panel1.Controls.Add(this.lblLocationCount);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(12, 12);
@@ -110,7 +110,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(109)))), ((int)(((byte)(224)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(161)))), ((int)(((byte)(255)))));
             this.panel2.Controls.Add(this.lblSumCapacity);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(223, 12);
@@ -140,7 +140,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel5.BackColor = System.Drawing.Color.Coral;
             this.panel5.Controls.Add(this.lblAvgCapacity);
             this.panel5.Controls.Add(this.label10);
             this.panel5.Location = new System.Drawing.Point(685, 12);
@@ -170,7 +170,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(204)))), ((int)(((byte)(104)))));
             this.panel6.Controls.Add(this.lblGuideCount);
             this.panel6.Controls.Add(this.label12);
             this.panel6.Location = new System.Drawing.Point(447, 12);
@@ -200,7 +200,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(255)))), ((int)(((byte)(245)))));
             this.panel3.Controls.Add(this.lblTurkiyeCapacityAvg);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Location = new System.Drawing.Point(685, 185);
@@ -230,7 +230,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.panel4.Controls.Add(this.lblCappadociaLocationCapacity);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Location = new System.Drawing.Point(447, 185);
@@ -260,7 +260,7 @@
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(108)))), ((int)(((byte)(240)))));
             this.panel7.Controls.Add(this.lblLastCountryName);
             this.panel7.Controls.Add(this.label14);
             this.panel7.Location = new System.Drawing.Point(223, 185);
@@ -290,7 +290,7 @@
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(211)))), ((int)(((byte)(200)))));
             this.panel8.Controls.Add(this.lblAvgLocationPrice);
             this.panel8.Controls.Add(this.label16);
             this.panel8.Location = new System.Drawing.Point(12, 185);
@@ -320,7 +320,7 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(72)))));
             this.panel9.Controls.Add(this.lblAysegülCinarLocationCount);
             this.panel9.Controls.Add(this.label18);
             this.panel9.Location = new System.Drawing.Point(685, 344);
@@ -350,7 +350,8 @@
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(59)))), ((int)(((byte)(87)))));
             this.panel10.Controls.Add(this.lblMaxPriceLocation);
             this.panel10.Controls.Add(this.lbl);
             this.panel10.Location = new System.Drawing.Point(447, 344);
@@ -362,7 +363,7 @@
             // 
             this.lblMaxPriceLocation.AutoSize = true;
             this.lblMaxPriceLocation.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaxPriceLocation.Location = new System.Drawing.Point(54, 63);
+            this.lblMaxPriceLocation.Location = new System.Drawing.Point(31, 62);
             this.lblMaxPriceLocation.Name = "lblMaxPriceLocation";
             this.lblMaxPriceLocation.Size = new System.Drawing.Size(37, 29);
             this.lblMaxPriceLocation.TabIndex = 2;
@@ -372,7 +373,7 @@
             // 
             this.lbl.AutoSize = true;
             this.lbl.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl.Location = new System.Drawing.Point(42, 31);
+            this.lbl.Location = new System.Drawing.Point(34, 26);
             this.lbl.Name = "lbl";
             this.lbl.Size = new System.Drawing.Size(93, 19);
             this.lbl.TabIndex = 1;
@@ -380,7 +381,7 @@
             // 
             // panel11
             // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(188)))), ((int)(((byte)(249)))));
             this.panel11.Controls.Add(this.lblMaxCapacityLocation);
             this.panel11.Controls.Add(this.label22);
             this.panel11.Location = new System.Drawing.Point(223, 344);
@@ -392,7 +393,7 @@
             // 
             this.lblMaxCapacityLocation.AutoSize = true;
             this.lblMaxCapacityLocation.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaxCapacityLocation.Location = new System.Drawing.Point(21, 42);
+            this.lblMaxCapacityLocation.Location = new System.Drawing.Point(21, 37);
             this.lblMaxCapacityLocation.Name = "lblMaxCapacityLocation";
             this.lblMaxCapacityLocation.Size = new System.Drawing.Size(37, 29);
             this.lblMaxCapacityLocation.TabIndex = 2;
@@ -410,7 +411,7 @@
             // 
             // panel12
             // 
-            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(92)))), ((int)(((byte)(101)))));
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(142)))), ((int)(((byte)(155)))));
             this.panel12.Controls.Add(this.lblRomeGuideName);
             this.panel12.Controls.Add(this.label24);
             this.panel12.Location = new System.Drawing.Point(12, 344);
@@ -422,7 +423,7 @@
             // 
             this.lblRomeGuideName.AutoSize = true;
             this.lblRomeGuideName.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRomeGuideName.Location = new System.Drawing.Point(68, 63);
+            this.lblRomeGuideName.Location = new System.Drawing.Point(42, 63);
             this.lblRomeGuideName.Name = "lblRomeGuideName";
             this.lblRomeGuideName.Size = new System.Drawing.Size(37, 29);
             this.lblRomeGuideName.TabIndex = 2;
